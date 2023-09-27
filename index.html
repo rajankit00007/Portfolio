@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de2e620fc5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images\Logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+                <h1>Hi there,<br><span>
+                    I'm<br>
+                </span><span>Ankit Raj</span><br></h1>
+                <p>student</p>
+                
+            </div>
+        </div>
+    </div>
+    <!----------------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\Ankit_Photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class ="subtitle">About Me<br></h1>
+                    <p>
+                        I'm Ankit Raj student of Lovely Professional University currently pursuing Btech CSE.
+                        An ordinary learner  on the way to become an extraordinary.
+                        Eager to become a software engineer with excellent problem-solving skills, 
+                        passionate about coding. Having knowledge of  C++ programming language. Enthusiastic and eager to learn new technology.
+                    </p><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++</span><br>Programming languages used for developing website,making apps</li><br>
+                            <li><span>HTML/CSS</span><br>Used for making a webpage</li><br>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span><b>Codechef</b></span><br> 1star coder with rating of 1234</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>Btech(2020-Present)</b></span><br>Computer Science Engineering from Lovely Professional University</li><br>
+                            <li><span><b>Intermediate(2018-2020)</b></span><br>From Gyansthali Public School</li><br>
+                            <li><span><b>Matriculation(2018)</b></span><br>From Jai Hind Public School</li><br>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service -->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="projectlist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Developer</h2>
+                    <p>C++ developers design and build applications for desktops and mobile devices. They collaborate with stakeholders on company needs and turn that into applications people can use. They need to have a very good understanding of the object-oriented programming language and how it can be used in real-world situations</p>
+                    <a href="https://www.4cornerresources.com/job-descriptions/c-developer/#:~:text=C%2B%2B%20developers%20design%20and%20build,used%20in%20real%2Dworld%20situations.">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app</p>
+                    <a href="https://www.coursera.org/articles/front-end-developer">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\imagee.jpeg">
+                    <div class="layer">
+                        <h3>Flight Booking System</h3>
+                        <p>
+                            A flight booking system is a software application that allows users to search for, select, and reserve flights. It typically includes features like searching for flights based on various criteria (dates, destinations, airlines), viewing available seats and prices, making reservations, and processing payments securely. This system streamlines the flight booking process for both customers and airlines, improving efficiency and convenience for all parties involved.
+                        </p>
+                        <a href="https://github.com/rajankit00007/C-program-for-flight-booking-system"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/imag.jpeg">
+                    <div class="layer">
+                        <h3>Bank Management System</h3>
+                        <p>
+                            The bank management system is a program that keeps track of a person’s bank account. The system allows customers to create accounts, deposit/withdraw money from their accounts, and examine reports for all of their accounts.
+                        </p>
+                        <a href="https://github.com/rajankit00007/Bank-Managemnt-System"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+            <a href="https://github.com/rajankit00007" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ankitraj7002@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>6203867096</p>
+                    <div class="socialicons">
+                        
+                        
+                        <a href="https://www.linkedin.com/in/rajankit007/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/rajankit00007"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="images/Ankit CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email Id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="thankyou">
+        <p>Thank You!! for visiting my personal Website....</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add('active-tab');
+        } 
+    </script>
+    <script>
+        const scriptURL='https://script.google.com/macros/s/AKfycbxshokncoVfyZkCYaqjtHvICWYu5s92-uqiE7VcMctZR04iTVxVR8JInOYuRbNn3cS7/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
